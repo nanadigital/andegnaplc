@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printing & Advert</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/print.css">
+    
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/responsive.css">
+   
+</head>
+
+<body>
+    
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar navbar-expand-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="logo detail">
+            </a>
+           
+            
+        </div>
+    </nav>
+    <!-- Container for the image gallery -->
+<div class="print">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+
+        <img src="images/banner.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+
+        <img src="images/book cover.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+ 
+        <img src="images/hat.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+
+        <img src="images/Mug mockup.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+
+        <img src="images/t-shirt.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+        <img src="images/Mug.png" style="width:100%">
+    </div>
+ 
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-print">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="images/banner.png" style="width:100%" onclick="currentSlide(1)" alt="Banner">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/book cover.png" style="width:100%" onclick="currentSlide(2)" alt="Bookcover">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/hat.png" style="width:100%" onclick="currentSlide(3)" alt="Cup">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Mug mockup.png" style="width:100%" onclick="currentSlide(4)" alt="Mug">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/t-shirt.png" style="width:100%" onclick="currentSlide(5)" alt="T-shirt">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Mug.png" style="width:100%" onclick="currentSlide(6)" alt="Mug">
+      </div>
+    
+    </div>
+  </div>  
+  <script src="js/print.js"></script>
+</body>
+</html>
